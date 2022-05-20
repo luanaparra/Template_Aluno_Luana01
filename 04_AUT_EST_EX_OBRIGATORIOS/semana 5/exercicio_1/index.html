@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise1</title>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="input-number">
+            <label for="number-1"> Primeiro número: </label>
+            <input type="number" name="first-number" id="number-1">
+        </div>
+
+        <div class="input-number">
+            <label for="number-2"> Segundo número: </label>
+            <input type="number" name="second-number" id="number-2">
+        </div>
+        
+        <div class="radios">
+
+            <span>Operação que deseja realizar:</span>
+        
+            <div class="radio">
+                <input type="radio" name="radio" id="radio-1" operation="sum">
+                <label for="radio-1">soma (+)</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" name="radio" id="radio-2" operation="subtraction">
+                <label for="radio-2">subtração (-)</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" name="radio" id="radio-3" operation="multiplication">
+                <label for="radio-3">multiplicação (*)</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" name="radio" id="radio-4" operation="division">
+                <label for="radio-4">divisão (/)</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" name="radio" id="radio-5" operation="integer-division">
+                <label for="radio-5">divisão inteira (//)</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" name="radio" id="radio-6" operation="remainder">
+                <label for="radio-6">resto (%)</label>
+            </div>
+
+        </div>
+        
+        <!-- Trigger button (botão de acionar/gatilho/clicar - Jquery)-->
+        <input type="button" value="Calcular" id="calculateBtn">
+
+        <span class="result"></span>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
