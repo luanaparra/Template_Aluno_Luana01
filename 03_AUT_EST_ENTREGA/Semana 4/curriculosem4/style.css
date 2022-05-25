@@ -2,72 +2,127 @@
     height: 100%;
 }
 
-main{
+:root {
+    font-size: 40%
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     color: #153E6D;
+    box-shadow: 0 0 20px #23BFC4;
+    height: 200rem;
     text-align:justify;
     margin: 3% 3% 3%;
     padding: 2em 2em;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
-    flex-direction:column;  
     border-radius: 10px;
-    box-shadow: 0 0 10px #23BFC4;
 }
 
-div{
-    line-height: 80%;
-    padding: 3% 0%;
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 14rem;
+    font-size: 2.5rem;
 }
 
-h1{
-    color: #153E6D;
-    text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.left-header .name {
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
 }
 
-h2{
-    font-size: 30px;
-    line-height: 120%;
+.left-header .current-job-title {
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+}
+
+.right-header .contact-info {
+    text-align: right;
+}
+
+.main-section {
+    display: flex;
+    margin: 0rem 14rem;
+}
+
+.aside-content {
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+}
+
+.main-content {
+    margin-left: 10rem;
+}
+
+.plus{
+    height: 2.5rem;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.box-title {
+    font-size: 3.5rem;
     color: #23BFC4;
 }
 
-p{
-    font-size: 10px;
-    line-height: 60%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.professional-experience, .license, .project-name {
+    margin-top: 2.5rem;
 }
 
-img{
-    border: 1px solid #23BFC4;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    align-self: center;
+.job-title, .topic, .project-name {
+    font-size: 2.4rem;
+    font-weight: 700;
 }
 
-header{
-    padding: 0%;
-    margin: 0%;
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
-#p1{
-    font-family: Cambria;
-    font-size: 15px;
-    padding: 0% 0% 2% 0%;
+.box-content {
+    display: none;
 }
 
-#p2{
-    font-size: 15px;
-}
 
-.barra{
-    padding: 0%;
-    margin: 0%;
-    background-color: #FFFFFF;
-}
 
-.dropdown-menu{
-    font-size: small;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
