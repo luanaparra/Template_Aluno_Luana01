@@ -1,8 +1,8 @@
 const elements = {
-    professionalExperiences: document.querySelectorAll(".professional-experience"),
+    academic: document.querySelectorAll(".academic")
 }
 
-elements.professionalExperiences.forEach(element => {
+elements.academic.forEach(element => {
     element.addEventListener("click", function(e) {
         if(!element.classList.contains("active")) {
             element.children[1].style.display = "initial";
