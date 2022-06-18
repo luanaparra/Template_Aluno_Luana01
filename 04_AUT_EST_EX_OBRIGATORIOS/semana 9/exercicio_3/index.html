@@ -1,3 +1,4 @@
+<!--Crie uma página web na qual o usuário informe três nomes e quando o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), os nomes são exibidos em ordem alfabética crescente.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +10,22 @@
 </head>
 
 <body>
+    <div>
+        <p> Digite o primeiro nome: </p>
+        <input type="text" id="nome1"></input>
+        <p> Digite o segundo nome: </p>
+        <input type="text" id="nome2"></input>
+        <p> Digite o terceiro nome: </p>
+        <input type="text" id="nome3"></input>
+    </div>
+
+    <div>
+        <input type="button" value="Executar" onclick="Ordenar()">
+        <p id="resultado"></p>
+    </div>
 
     <script src="script.js"></script>
 
 </body>
 </html>
 
-<!--Crie uma página web na qual o usuário informe três nomes e quando o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), os nomes são exibidos em ordem alfabética crescente.-->
